@@ -31,7 +31,8 @@ Let $S$ be the number of sides and $K$ be the number of faces sharing the same v
 > $K\geq3$ comes from the fact that $K=1$ breaks the connectivity and $K=2$ introduces boundaries.
 
 We have 2 equations with the help of $S$ and $K$
-$$FS=2E \\ FS=KV$$
+$$FS=2E$$
+$$FS=KV$$
 Apply these 2 equations into $V-E+F=2$, we get
 $$F = \frac{4K}{2S+2K-SK}$$
 As $F$ is positive so $2S+2K-SK$ is required to be positive, **and only 5 combinantions of $S$ and $K$ satisfy - (3, 3), (3, 4), (3, 5), (4, 3), and (5, 3).** They are respectively tetrahedron, octahedron, icosahedron, hexahedron (cube), and dodecahedron.
@@ -48,26 +49,20 @@ As $F$ is positive so $2S+2K-SK$ is required to be positive, **and only 5 combin
 Proof:
 
 Based on euler-poincare formula, every simplicial surface has $V-E+F=2-2g$ where $g$ is the number of handles. If every vertex has regular valence, we get
-$$
-6V=2E\\
-3F=2E
-$$
+$$6V=2E$$
+$$3F=2E$$
 So, $V-E+F=0$ and $g=1$, which indicates the simplicial surface is torus.
 
 ## EXERCISE 2.4 - Minimum Irregular Valence
 
 > Show that the minimum possible number of irregular valence vertices in a (connected, orientable) simplicial surface $K$ of genus g is given by
-> $$
-> m(K)= \begin{cases}4, & g=0 \\ 0, & g=1 \\ 1, & g \geq 2\end{cases}
-> $$
+> $$m(K)= \begin{cases}4, & g=0 \\ 0, & g=1 \\ 1, & g \geq 2\end{cases}$$
 
 Let $V_r$ be the number of regular vertices, $V_{ir}$ be the number of irregular vertices, and $K$ be the mean valence of the irregular vertices.
 
 We have $6V_r+KV_{ir}=2E=3F$, so the euler-poincare formula becomes
-$$
-(1-\frac{K}{6})V_{ir}=2-2g
-$$
- When $g=0$, we require $3\leq K<6$ so $V_{ir}\geq4$;
+$$(1-\frac{K}{6})V_{ir}=2-2g$$
+When $g=0$, we require $3\leq K<6$ so $V_{ir}\geq4$;
 
 When $g=1$, we can have $V_{ir}=0$;
 
@@ -76,36 +71,26 @@ When $g\geq2$, we require $K>6$ but do not constrain $V_{ir}$, hence $V_{ir}$ co
 ## EXERCISE 2.5 - Mean Valence (Triangle Mesh)
 
 >Show that the mean valence approaches six as the number of vertices in a (connected, orientable) simplicial surface goes to infinity, and that the ratio of vertices to edges to triangles hence approaches
->$$
->V:E:F=1:3:2
->$$
+>$$V:E:F=1:3:2$$
 
 Let $K$ be the mean valence of vertices, we have $KV=2E=3F$ for triangular mesh.
 
 From E-P formula, we have:
-$$
-1-\frac{K}{6}=\frac{2-2g}{V}
-$$
+$$1-\frac{K}{6}=\frac{2-2g}{V}$$
 so when $V$ goes to infinity, mean valence approaches 6.
 
 ## EXERCISE 2.6 - Mean Valence (Quad Mesh)
 
 For quad mesh, we have $KV=2E=4F$, so E-P formula becomes
-$$
-1-\frac{K}{4}=\frac{2-2g}{V}
-$$
+$$1-\frac{K}{4}=\frac{2-2g}{V}$$
 so $V:E:Q=1:2:1$ if $V$ goes into infinity.
 
 ## EXERCISE 2.7 - Mean Valence (Tetrahedral)
 
 If we assume that $Lk(i)$ of every vertex $i\in V$ is a combinatorial icosahedron, we will have the relationship regardless of boundary vertices:
-$$
-20V=4T
-$$
+$$20V=4T$$
 It is natrual to have $KV=2E$ and $2F=4T$. Apply them to $V-E+F-T=c$, we get:
-$$
-6-\frac{K}{2}=\frac{c}{V}
-$$
+$$6-\frac{K}{2}=\frac{c}{V}$$
 So when $V$ goes to infinity, $K$ approaches 12 and $V:E:F:T=1:6:10:5$.
 
 ## EXERCISE 2.8 - Star, Closure, and Link
@@ -156,8 +141,7 @@ faces: {0, 8, 7}, {1, 2, 14}, {3, 4, 12}, {5, 6, 10}, {9, 15, 13, 11}
 
 ![image-20220717160926526](md.assets/wa0/image-20220717160926526.png){width=60%}\
 
-$$
-A_0=\begin{pmatrix}
+$$A_0=\begin{pmatrix}
 1&1&0&0&0\\
 1&0&1&0&0\\
 1&0&0&1&0\\
@@ -172,8 +156,7 @@ A_1=\begin{pmatrix}
 1&1&0&0&0&1&0&0\\
 0&1&1&0&0&0&1&0\\
 0&0&1&1&0&0&0&1\\
-\end{pmatrix}
-$$
+\end{pmatrix}$$
 
 ## EXERCISE 2.13 - Classification of Simplicial 1-Manifolds
 
