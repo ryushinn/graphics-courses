@@ -31,14 +31,9 @@ Let $S$ be the number of sides and $K$ be the number of faces sharing the same v
 > $K\geq3$ comes from the fact that $K=1$ breaks the connectivity and $K=2$ introduces boundaries.
 
 We have 2 equations with the help of $S$ and $K$
-$$
-FS=2E \\
-FS=KV
-$$
+$$FS=2E \\ FS=KV$$
 Apply these 2 equations into $V-E+F=2$, we get
-$$
-F = \frac{4K}{2S+2K-SK}
-$$
+$$F = \frac{4K}{2S+2K-SK}$$
 As $F$ is positive so $2S+2K-SK$ is required to be positive, **and only 5 combinantions of $S$ and $K$ satisfy - (3, 3), (3, 4), (3, 5), (4, 3), and (5, 3).** They are respectively tetrahedron, octahedron, icosahedron, hexahedron (cube), and dodecahedron.
 
 ![image-20220716121138229](md.assets/wa0/image-20220716121138229.png)\

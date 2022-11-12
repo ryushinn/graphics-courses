@@ -13,7 +13,7 @@ Here are some courses I took outside of my degree to teach myself graphics:
 [[webpage (chinese)](https://games-cn.org/games103/)] | [[more](test.md)]
 - Discrete Differential Geometry\
 *(CMU CS15-458/858)*\
-[[webpage](https://brickisland.net/DDGSpring2022/)] | [[more](test.md)]
+[[webpage](https://brickisland.net/DDGSpring2022/)] | [[more](CMU.CS15458/README.md)]
 
 Thanks for all instructors bringing these great resources to public!
 
