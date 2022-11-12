@@ -15,6 +15,8 @@ Here are some courses I took outside of my degree to teach myself graphics:
 *(CMU CS15-458/858)*\
 [[webpage](https://brickisland.net/DDGSpring2022/)] | [[more](test.md)]
 
-**Click [more]** for my finished projects in that course. Hope they are helpful in some way :).
+Thanks for all instructors bringing these great resources to public!
+
+**Click [more]** for my finished projects in that course, hope they are helpful in some way :).
 
 ## The Poster
