@@ -13,11 +13,11 @@ This figure shows the energy compensation by the KC approximation.
 
 ![KullaConty](hw4/images/KullaConty.png)
 
-The roughness increases from left to right (first row: with compensation, the second row: without compensation).
+The roughness increases from left to right. The first row is a bit brighter than the second row which does not have compensation.
 
 There is also a White Furnace Test for fun :)
 
-|$F_0$=Gold | $F_0$=White (no energy absorption) |
+|$F_0$=Gold | $F_0$=White (no energy absorption, so *invisible* matpreview balls!) |
 | - | - |
 | ![gold](hw4/images/WFT(Gold).png)  | ![1.0](hw4/images/white%20furnace%20test.gif)  |
 
