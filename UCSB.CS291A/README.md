@@ -1,5 +1,28 @@
 # Real-time High Quality Rendering
 
+## 1 Real-time Shadows (PCF and PCSS)
+
+Rendered percentage closer soft shadows:
+
+![pcss](hw1/images/bonus.gif)
+
+## 2 Precomputed Radiance Transfer
+
+Implemented Precomputed Radiance Transfer (PRT), which basically pre-computes both lighting and light transport approximated by spherical harmonics, and reproduces global illumination in real-time.
+
+![prt-sh-rotation](hw2/images/PRT_Rotation_cornellbox.gif)
+
+You can notice that the red/green/white walls of the rotating cornell box alternate to illuminate our Mary maid model, with decent inter-reflections between hair, clothes, and body.
+
+## 3 Screen Space Ray Tracing
+
+Obtained two-bounce global illumination by screen space ray tracing (accelerated with Mipmap depth maps)
+
+| only direct lighting                          | + indirect lighting                          |
+| --------------------------------------------- | -------------------------------------------- |
+| ![only_direct](hw3/images/cave_直接光照.png)  | ![indirect](hw3/images/cave_间接光照1.0.png) |
+| ![only_direct](hw3/images/cube2_直接光照.png) | ![indirect](hw3/images/cube2_间接光照.png)   |
+
 ## 4 The Kulla-Conty Microfacet BRDF
 
 Implemented the Kulla-Conty approximation on energy-preserving for the microfacet BRDF.
@@ -17,9 +40,9 @@ The roughness decreases from left to right. The first row is a bit brighter than
 
 There is also a White Furnace Test for fun :)
 
-|$F_0$=Gold | $F_0$=White (no energy absorption, so *invisible* matpreview balls!) |
-| - | - |
-| ![gold](hw4/images/WFT(Gold).png)  | ![1.0](hw4/images/white%20furnace%20test.gif)  |
+| $F_0$=Gold                        | $F_0$=White (no energy absorption, so *invisible* matpreview balls!) |
+| --------------------------------- | -------------------------------------------------------------------- |
+| ![gold](hw4/images/WFT(Gold).png) | ![1.0](hw4/images/white%20furnace%20test.gif)                        |
 
 ## 5 Denoising in Real-time Ray Tracing
 
