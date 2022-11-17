@@ -13,7 +13,7 @@ This figure shows the energy compensation by the KC approximation.
 
 ![KullaConty](hw4/images/KullaConty.png)
 
-The roughness increases from left to right. The first row is a bit brighter than the second row which does not have compensation.
+The roughness decreases from left to right. The first row is a bit brighter than the second row which does not have compensation.
 
 There is also a White Furnace Test for fun :)
 
