@@ -1,4 +1,4 @@
-# Discrete Differential Geometry (To be added)
+# Discrete Differential Geometry
 
 ## Written assignments
 
