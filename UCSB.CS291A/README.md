@@ -40,7 +40,7 @@ The roughness decreases from left to right. The first row is a bit brighter than
 
 There is also a White Furnace Test for fun :)
 
-| $F_0$=Gold                        | $F_0$=White (no energy absorption, so *invisible* matpreview balls!) |
+| F_0=Gold                        | F_0=White (no energy absorption, so *invisible* matpreview balls!) |
 | --------------------------------- | -------------------------------------------------------------------- |
 | ![gold](hw4/images/WFT-Gold.jpg) | ![1.0](hw4/images/white-furnace-test.gif)                        |
 
