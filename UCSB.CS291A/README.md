@@ -42,7 +42,7 @@ There is also a White Furnace Test for fun :)
 
 | $F_0$=Gold                        | $F_0$=White (no energy absorption, so *invisible* matpreview balls!) |
 | --------------------------------- | -------------------------------------------------------------------- |
-| ![gold](hw4/images/WFT(Gold).jpg) | ![1.0](hw4/images/white%20furnace%20test.gif)                        |
+| ![gold](hw4/images/WFT-Gold.jpg) | ![1.0](hw4/images/white-furnace-test.gif)                        |
 
 ## 5 Denoising in Real-time Ray Tracing
 
