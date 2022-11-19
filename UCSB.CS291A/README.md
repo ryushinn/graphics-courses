@@ -18,10 +18,10 @@ You can notice that the red/green/white walls of the rotating cornell box altern
 
 Obtained two-bounce global illumination by screen space ray tracing (accelerated with Mipmap depth maps)
 
-| only direct lighting                          | + indirect lighting                          |
-| --------------------------------------------- | -------------------------------------------- |
-| ![only_direct](hw3/images/cave_直接光照.png)  | ![indirect](hw3/images/cave_间接光照1.0.png) |
-| ![only_direct](hw3/images/cube2_直接光照.png) | ![indirect](hw3/images/cube2_间接光照.png)   |
+| only direct lighting                        | + indirect lighting                          |
+| ------------------------------------------- | -------------------------------------------- |
+| ![only_direct](hw3/images/cave_direct.jpg)  | ![indirect](hw3/images/cave_indirect1.0.jpg) |
+| ![only_direct](hw3/images/cube2_direct.jpg) | ![indirect](hw3/images/cube2_indirect.jpg)   |
 
 ## 4 The Kulla-Conty Microfacet BRDF
 
@@ -34,7 +34,7 @@ References:
 
 This figure shows the energy compensation by the KC approximation.
 
-![KullaConty](hw4/images/KullaConty.png)
+![KullaConty](hw4/images/KullaConty.jpg)
 
 The roughness decreases from left to right. The first row is a bit brighter than the second row which does not have compensation.
 
@@ -42,7 +42,7 @@ There is also a White Furnace Test for fun :)
 
 | $F_0$=Gold                        | $F_0$=White (no energy absorption, so *invisible* matpreview balls!) |
 | --------------------------------- | -------------------------------------------------------------------- |
-| ![gold](hw4/images/WFT(Gold).png) | ![1.0](hw4/images/white%20furnace%20test.gif)                        |
+| ![gold](hw4/images/WFT(Gold).jpg) | ![1.0](hw4/images/white%20furnace%20test.gif)                        |
 
 ## 5 Denoising in Real-time Ray Tracing
 
@@ -51,7 +51,7 @@ Implemented spatio-temporal filtering techniques widely used in RTRT
 - Spatial denoising: joint bilateral filtering with growing kernel size (À-Trous Wavelet)
 - Temporal denoising: projection by motion vectors
 
-![room-diff](hw5/results/room-diff.png)
+![room-diff](hw5/results/room-diff.jpg)
 
 | Raw                                 | Denoised                                 |
 | ----------------------------------- | ---------------------------------------- |
